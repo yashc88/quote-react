@@ -62,16 +62,16 @@
     letter-spacing: 0.7px;
   }
     
-  /* .button:hover {
+  .button:hover {
     animation: rotate 0.7s ease-in-out both;
-  } */
+  }
     
   .button:hover span {
-    animation: storm 1s ease-in-out;
+    animation: storm 0.7s ease-in-out both;
     animation-delay: 0.06s;
   }
     
-  /* @keyframes rotate {
+  @keyframes rotate {
     0% {
       transform: rotate(0deg) translate3d(0, 0, 0);
     }
@@ -87,7 +87,7 @@
     100% {
       transform: rotate(0deg) translate3d(0, 0, 0);
     }
-  } */
+  }
     
   @keyframes storm {
     0% {
@@ -117,6 +117,6 @@
   @media only screen and ( max-width: 600px){
     .card{
         width: 80%;
-        height: 0%;
+        height: 30%;
     }
   }
